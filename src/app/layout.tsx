@@ -8,7 +8,7 @@ import "./globals.css";
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-body',
-  weight: '500'
+  weight: ['500', '300']
 })
 
 // In real build probably dont want to save fonts in /src/ but localFont can't reference /public/
@@ -19,7 +19,7 @@ const headerFont = localFont({
     { path: '../fonts/fonnts.com-Ivy-Presto-Display-Light.otf', weight: '400', style: 'italic' }
   ],
   variable: '--font-heading',
-  display: 'swap',
+  display: 'swap'
 })
 
 export const metadata: Metadata = {

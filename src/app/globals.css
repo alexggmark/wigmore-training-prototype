@@ -7,6 +7,7 @@
   --dark: #1C1C1C;
   --light: #FFFFFF;
   --background: #FAFAFA;
+  --overlay: #0F595A;
 }
 
 @theme inline {
@@ -17,6 +18,7 @@
   --color-brand-light: var(--light);
   --color-brand-background: var(--background);
   --color-brand-background-light: var(--background);
+  --color-brand-overlay: var(--overlay);
 
   --font-body: var(--font-body);
   --font-heading: var(--font-heading);
