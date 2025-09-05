@@ -19,7 +19,7 @@ export default function IntroStatBlock() {
           {Array.from({ length: 4 }).map((_, i) => (
             <div className="col-span-1" key={i}>
               <div className="flex flex-col max-w-[180px]">
-                <span className="font-heading text-brand-secondary text-4xl">200+</span>
+                <span className="font-heading text-brand-secondary text-4xl pb-2">200+</span>
                 <span className="font-body">Young professionals went before you</span>
               </div>
             </div>

@@ -17,11 +17,51 @@ export default function CourseTile() {
         </div>
       </div>
       <div className="">
-        <div className="p-6 flex flex-col items-start justify-end h-full max-w-[480px]">
-          <h3 className="font-heading text-2xl mb-3">Courses</h3>
+        <div className="flex p-4 flex-col items-start justify-end max-w-[480px] border-b border-brand-border">
+          <h3 className="font-heading text-xl text-brand-secondary-700 font-bold">Hand Rejuvenation Injection Masterclass</h3>
+        </div>
+        <div className="flex p-4 flex-col items-start justify-end max-w-[480px]">
+          <div className="flex flex-row gap-3 mb-3">
+            <div className="w-16 h-16 rounded-full overflow-hidden relative">
+              <Image
+                src="/assets/placeholder-person-profile.png"
+                alt="Profile image"
+                fill
+                className="object-cover absolute inset-0"
+              />
+            </div>
+            <div className="flex flex-col justify-center">
+              <p className="font-heading font-bold text-brand-secondary-700 mb-1">Dr Lorenzo Garagnani</p>
+              <p className="text-xs">Hand Injection Masterclass Trainer</p>
+            </div>
+          </div>
           <p className="font-body text-sm mb-4">
             Explore our wide range of CPD-certified in-person and online aesthetics courses for medical and non-medical professionals
           </p>
+          <div className="flex flex-row gap-4 mb-4">
+            <div className="flex flex-row items-center gap-1">
+              <Image
+                className="dark:invert"
+                src="/assets/icon-clock.svg"
+                alt="arrow"
+                width={24}
+                height={24}
+                priority
+              />
+              <span className="text-sm">1 Day Duration</span>
+            </div>
+            <div className="flex flex-row items-center gap-1">
+              <Image
+                className="dark:invert"
+                src="/assets/icon-pin.svg"
+                alt="arrow"
+                width={24}
+                height={24}
+                priority
+              />
+              <span className="text-sm">London - W1U 1PJ</span>
+            </div>
+          </div>
           <button className="flex flex-row justify-center w-full text-base gap-2 rounded-full border border-transparent bg-brand-secondary text-brand-light px-5 py-2.5">
             <span>View Courses</span>
             <Image
