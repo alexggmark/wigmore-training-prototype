@@ -24,9 +24,9 @@ export default function Header() {
   }, [])
 
   const baseHeader =
-    'font-body text-sm border-b border-brand-light w-full fixed left-0 right-0 z-50'
+    'font-body text-sm border-b border-brand-light w-full left-0 right-0 z-50'
 
-  const positionClass = pastBar ? 'top-0' : 'top-[var(--ann-h)]'
+  const positionClass = pastBar ? 'top-0 fixed' : 'top-[var(--ann-h)] absolute top'
 
   const skinClass = pastBar || !isTransparent
     ? 'bg-brand-light text-brand-dark shadow-md'
