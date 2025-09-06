@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CourseTile() {
   return (
-    <div className="shadow-sm rounded-xl overflow-hidden font-body bg-brand-light">
+    <div className="shadow-sm rounded-xl overflow-hidden font-body bg-brand-light min-w-[360px]">
       <div className="relative aspect-[9/6]">
         <Image
           src="/assets/placeholder-product.png"
@@ -41,7 +41,6 @@ export default function CourseTile() {
           <div className="flex flex-row gap-4 mb-4">
             <div className="flex flex-row items-center gap-1">
               <Image
-                className="dark:invert"
                 src="/assets/icon-clock.svg"
                 alt="arrow"
                 width={24}
@@ -52,7 +51,6 @@ export default function CourseTile() {
             </div>
             <div className="flex flex-row items-center gap-1">
               <Image
-                className="dark:invert"
                 src="/assets/icon-pin.svg"
                 alt="arrow"
                 width={24}
