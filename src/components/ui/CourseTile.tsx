@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CourseTile() {
   return (
-    <div className="shadow-md rounded-xl overflow-hidden font-body">
+    <div className="shadow-sm rounded-xl overflow-hidden font-body bg-brand-light">
       <div className="relative aspect-[9/6]">
         <Image
           src="/assets/placeholder-product.png"
@@ -62,16 +62,8 @@ export default function CourseTile() {
               <span className="text-sm">London - W1U 1PJ</span>
             </div>
           </div>
-          <button className="flex flex-row justify-center w-full text-base gap-2 rounded-full border border-transparent bg-brand-secondary text-brand-light px-5 py-2.5">
-            <span>View Courses</span>
-            <Image
-              className="dark:invert"
-              src="/assets/icon-arrow.svg"
-              alt="arrow"
-              width={16}
-              height={16}
-              priority
-            />
+          <button className="button-primary w-full">
+            View Courses
           </button>
         </div>
       </div>

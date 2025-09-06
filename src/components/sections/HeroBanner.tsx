@@ -1,9 +1,14 @@
 import Image from "next/image";
 
-export default function HeroBanner() {
+export default function HeroBanner({ transparent = false }: { transparent?: boolean }) {
+  const desktopHeight = transparent ? 'md:min-h-[calc(40rem+var(--header-h))]' : 'md:min-h-[40rem]';
+  const desktopContentPadding = transparent ? 'md:pt-[var(--header-h)]' : '';
+
   return (
     <section>
-      <div className={`relative overflow-hidden min-h-[56svh] md:min-h-[40rem]`}>
+      <div className={`
+        relative overflow-hidden min-h-[56svh] ${desktopHeight}
+      `}>
         {/* Background image */}
         <Image
           src="/assets/placeholder-hero-banner.png"
@@ -15,10 +20,10 @@ export default function HeroBanner() {
         />
 
         {/* Gradient overlay (left-to-right) */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20" />
 
         {/* Content (left column) */}
-        <div className="absolute top-0 left-0 right-0 bottom-0 z-10 h-full">
+        <div className={`absolute top-0 left-0 right-0 bottom-0 z-10 h-full ${desktopContentPadding}`}>
           <div className="container mx-auto flex items-center h-full">
             <div className="max-w-xl text-white">
               <h1 className="text-4xl font-heading md:text-[70px]">

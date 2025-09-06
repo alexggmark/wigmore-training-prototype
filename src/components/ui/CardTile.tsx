@@ -19,16 +19,8 @@ export default function CardTile() {
           <p className="font-body text-sm mb-4">
             Explore our wide range of CPD-certified in-person and online aesthetics courses for medical and non-medical professionals
           </p>
-          <button className="flex flex-row text-base gap-2 rounded-full border border-transparent bg-brand-secondary text-brand-light px-5 py-2.5">
-            <span>View Courses</span>
-            <Image
-              className="dark:invert"
-              src="/assets/icon-arrow.svg"
-              alt="arrow"
-              width={16}
-              height={16}
-              priority
-            />
+          <button className="button-primary">
+            View Courses
           </button>
         </div>
       </div>

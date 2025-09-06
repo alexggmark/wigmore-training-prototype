@@ -5,17 +5,20 @@ import CardTileBlock from '@/components/sections/CardTileBlock';
 import CtaBlock from '@/components/sections/CtaBlock';
 import CategorySelector from '@/components/sections/CategorySelector';
 import CourseTileBlock from '@/components/sections/CourseTileBlock';
+import ImageTextBlock from '@/components/sections/ImageTextBlock';
 
 export default function Home() {
   return (
     <>
       <HeaderMode transparent />
-      <HeroBanner />
+      <HeroBanner transparent />
       <IntroStatBlock />
       <CardTileBlock />
       <CtaBlock />
       <CategorySelector />
       <CourseTileBlock />
+      <CtaBlock />
+      <ImageTextBlock />
     </>
   );
 }

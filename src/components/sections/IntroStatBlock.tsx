@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function IntroStatBlock() {
   return (
-    <section>
+    <section className="pt-24 pb-16">
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 py-10 gap-6 border-b border-brand-teriary">
+        <div className="grid grid-cols-2 pb-16 gap-6 border-b border-brand-teriary">
           <div className="col-span-1">
             <h2 className="font-heading text-5xl text-brand-secondary">
               Guaranteed <em>Professional Training</em> with 30+ Years of Experience
@@ -15,7 +15,7 @@ export default function IntroStatBlock() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 py-10">
+        <div className="grid grid-cols-4 pt-14">
           {Array.from({ length: 4 }).map((_, i) => (
             <div className="col-span-1" key={i}>
               <div className="flex flex-col max-w-[180px]">

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./components.css";
 
 :root {
   --primary: #001336;
@@ -9,7 +10,10 @@
   --light: #FFFFFF;
   --background: #FAFAFA;
   --overlay: #07393a;
-  --border: #DADEE2;
+  --border: #EAECEE;
+
+  --ann-h: 32px; /* announcement bar height */
+  --header-h: 87px; /* header height */
 }
 
 @theme inline {
@@ -40,7 +44,7 @@
 } */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--light);
+  color: var(--dark);
   font-family: sans-serif;
 }
