@@ -6,6 +6,7 @@ import CtaBlock from '@/components/sections/CtaBlock';
 import CategorySelector from '@/components/sections/CategorySelector';
 import CourseTileBlock from '@/components/sections/CourseTileBlock';
 import ImageTextBlock from '@/components/sections/ImageTextBlock';
+import TestimonialScroll from '@/components/sections/TestimonialScroll';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <CourseTileBlock />
       <CtaBlock />
       <ImageTextBlock />
+      <TestimonialScroll />
     </>
   );
 }

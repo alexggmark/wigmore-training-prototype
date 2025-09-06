@@ -62,7 +62,7 @@ export default function CourseTile() {
               <span className="text-sm">London - W1U 1PJ</span>
             </div>
           </div>
-          <button className="button-primary w-full">
+          <button className="button-primary large w-full">
             View Courses
           </button>
         </div>

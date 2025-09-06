@@ -18,7 +18,7 @@ export default function CtaBlock() {
         <div className="absolute inset-0 z-10 h-full">
           <div className="container mx-auto flex justify-center items-center h-full">
             <div className="max-w-xl text-white text-center flex flex-col gap-4 items-center">
-              <h1 className="text-5xl font-heading">
+              <h1 className="text-5xl font-heading leading-tight">
                 Awarded for our Aesthetics Training Excellence
               </h1>
               <p className="font-body mt-4 text-base text-white/90 max-w-[480px]">

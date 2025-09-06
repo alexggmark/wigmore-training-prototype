@@ -29,9 +29,18 @@ export default function HeroBanner({ transparent = false }: { transparent?: bool
               <h1 className="text-4xl font-heading md:text-[70px]">
                 Advance Your Career in <em>Medical Aesthetics</em>
               </h1>
-              <p className="mt-4 text-lg text-white/90 font-light max-w-[480px]">
+              <p className="mt-4 font-body text-lg text-white/90 max-w-[520px]">
                 Beginner or advanced, learn from industry experts through accredited training courses and live online webinars.
               </p>
+              <Image
+                src="/assets/aethetics-award-logo.svg"
+                alt="Background image"
+                priority
+                sizes="(min-width: 1024px) 400px, 400px"
+                width="200"
+                height="100"
+                className="md:mt-24"
+              />
             </div>
           </div>
         </div>

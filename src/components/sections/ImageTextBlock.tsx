@@ -6,7 +6,7 @@ export default function ImageTextBlock() {
       <div className="container mx-auto">
         <div className="grid grid-cols-12 md:gap-20">
           <div className="col-span-5">
-            <div className="relative rounded-xl aspect-[12/13] overflow-hidden">
+            <div className="relative rounded-lg aspect-[11/13] overflow-hidden">
               <Image
                 src="/assets/placeholder-card-tile.png"
                 alt="Background image"
