@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function IntroStatBlock() {
   return (
     <section className="pt-24 pb-16">

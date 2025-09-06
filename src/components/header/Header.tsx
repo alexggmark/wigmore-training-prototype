@@ -68,16 +68,16 @@ export default function Header() {
             {/* Primary nav (collapse to a tighter look past the bar if you want) */}
             <nav aria-label="Primary" className="hidden md:block">
               <ul className={`flex items-center gap-8 ${pastBar ? 'text-sm' : 'text-base'}`}>
-                <li><a href="/">Home</a></li>
-                <li><a href="/products">Products</a></li>
+                <li>Home</li>
+                <li>Products</li>
                 <li className="flex items-center gap-2">
                   <span>Training</span>
                   {/* <Image src="/assets/icon-chevron.svg" alt="" width={12} height={12} /> */}
                   <CaretSvg />
                 </li>
-                <li><a href="/exclusives">Exclusives</a></li>
-                <li><a href="/offers">Offers</a></li>
-                <li><a href="/news">News</a></li>
+                <li>Exclusives</li>
+                <li>Offers</li>
+                <li>News</li>
               </ul>
             </nav>
           </div>
