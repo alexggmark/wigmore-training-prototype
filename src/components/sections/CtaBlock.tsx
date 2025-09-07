@@ -5,7 +5,7 @@ export default function CtaBlock() {
     <section>
       <div className="relative overflow-hidden min-h-[56svh] md:min-h-[26rem]">
         <Image
-          src="/assets/placeholder-hero-banner.png"
+          src="/assets/placeholder-background-mask.png"
           alt="Background image"
           fill
           priority
@@ -13,7 +13,7 @@ export default function CtaBlock() {
           className="object-cover absolute left-0 right-0 top-0 bottom-0"
         />
 
-        <div className="pointer-events-none absolute inset-0 bg-brand-overlay/60" />
+        <div className="pointer-events-none absolute inset-0 bg-brand-secondary-700/70" />
 
         <div className="absolute inset-0 z-10 h-full">
           <div className="container mx-auto flex justify-center items-center h-full">

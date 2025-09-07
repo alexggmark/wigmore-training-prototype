@@ -56,14 +56,14 @@ export default function TestimonialScroll() {
 
   return (
     <section>
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <Image
           src="/assets/placeholder-hero-banner.png"
           alt="Background image"
           fill
           priority
           sizes="(min-width: 1024px) 1200px, 100vw"
-          className="object-cover absolute left-0 right-0 top-0 bottom-0 -z-10"
+          className="object-cover absolute left-0 right-0 top-0 bottom-0 -z-10 grayscale"
         />
 
         <div className="pointer-events-none absolute inset-0 bg-brand-secondary-700/70 -z-10" />
@@ -72,7 +72,7 @@ export default function TestimonialScroll() {
           <div className="grid grid-cols-2 pb-16 gap-6">
             <div className="col-span-1">
               <h2 className="font-heading text-5xl leading-tight text-brand-light">
-                Guaranteed <em>Professional Training</em> with 30+ Years of Experience
+                See What Our <em>Previous Delegates</em> Say About Their Experience
               </h2>
             </div>
             <div className="col-span-1 font-body text-brand-light font-light text-lg md:pt-2">
