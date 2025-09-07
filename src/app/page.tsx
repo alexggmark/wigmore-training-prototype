@@ -7,6 +7,7 @@ import CategorySelector from '@/components/sections/CategorySelector';
 import CourseTileBlock from '@/components/sections/CourseTileBlock';
 import ImageTextBlock from '@/components/sections/ImageTextBlock';
 import TestimonialScroll from '@/components/sections/TestimonialScroll';
+import BlogTileBlock from '@/components/sections/BlogTileBlock';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <CtaBlock />
       <ImageTextBlock />
       <TestimonialScroll />
+      <BlogTileBlock />
     </>
   );
 }

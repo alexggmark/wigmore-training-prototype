@@ -2,7 +2,7 @@ export default function IntroStatBlock() {
   return (
     <section className="pt-24 pb-16">
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 pb-16 gap-6 border-b border-brand-teriary">
+        <div className="grid grid-cols-2 pb-16 gap-6 border-b border-brand-tertiary">
           <div className="col-span-1">
             <h2 className="font-heading text-5xl leading-tight text-brand-secondary">
               Guaranteed <em>Professional Training</em> with 30+ Years of Experience

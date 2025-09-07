@@ -5,7 +5,7 @@
   --primary: #001336;
   --secondary: #287271;
   --secondary-700: #0F595A;
-  --teriary: #E9C46A;
+  --tertiary: #E9C46A;
   --dark: #1C1C1C;
   --light: #FFFFFF;
   --background: #FAFAFA;
@@ -20,7 +20,7 @@
   --color-brand-primary: var(--primary);
   --color-brand-secondary: var(--secondary);
   --color-brand-secondary-700: var(--secondary-700);
-  --color-brand-teriary: var(--teriary);
+  --color-brand-tertiary: var(--tertiary);
   --color-brand-dark: var(--dark);
   --color-brand-light: var(--light);
   --color-brand-background: var(--background);

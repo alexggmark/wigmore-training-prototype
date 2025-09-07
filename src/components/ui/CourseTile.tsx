@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CourseTile() {
   return (
-    <div className="shadow-sm rounded-xl overflow-hidden font-body bg-brand-light min-w-[360px]">
+    <div className="shadow-sm rounded-lg overflow-hidden font-body bg-brand-light min-w-[360px]">
       <div className="relative aspect-[9/6]">
         <Image
           src="/assets/placeholder-product.png"
